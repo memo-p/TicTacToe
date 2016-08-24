@@ -27,13 +27,21 @@ class IA {
 public:
     
     int couleur;
-    
+    int size;
+    int boardSize;
+    int victorySize;
     IA(int couleur_):couleur(couleur_){}
     
     virtual int * play(std::vector<int> * gameState) = 0;
     
-    virtual void setSize(int size_) = 0;
-    virtual void setVictorySize(int victorySize_) = 0;
+    void setSize(int size_){
+    	size = size_;
+    	boardSize = size*size;
+    }
+
+    void setVictorySize(int victorySize_) {
+    	victorySize = victorySize_;
+	}
     virtual void joue(std::vector<int> * gameState,int x,int y){}
     
 };

@@ -28,16 +28,8 @@ int * FirstEmptyIA::play(std::vector<int> * gameState){
             plc = i;
         }
     }
-    retour[0] = plc / 3;
-    retour[1] = plc % 3;
+    retour[0] = plc / size;
+    retour[1] = plc % size;
     
     return retour;
-}
-
-
-void FirstEmptyIA::setSize(int size_){
-    
-}
-void FirstEmptyIA::setVictorySize(int victorySize_){
-    
 }

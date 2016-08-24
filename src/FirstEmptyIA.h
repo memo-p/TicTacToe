@@ -22,14 +22,9 @@
 #include "IA.h"
 
 class FirstEmptyIA:public IA {
-    
-    
 public:
 	FirstEmptyIA(int couleur_);
     virtual int * play(std::vector<int> * gameState);
-    
-    virtual void setSize(int size_);
-    virtual void setVictorySize(int victorySize_);
 };
 
 #endif /* defined(__CPPTP3EXO3__FirstEmptyIA__) */

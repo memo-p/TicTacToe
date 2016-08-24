@@ -78,7 +78,7 @@ void Morpion::draw(){
         }
     }
     if (fini) {
-        GraphicPrimitives::drawText2D("Partie finie", 0.f, 0.f, 0.f, 0.f, 0.f);
+        GraphicPrimitives::drawText2D("Game over", 0.f, 0.f, 0.f, 0.f, 0.f);
     }
 }
 

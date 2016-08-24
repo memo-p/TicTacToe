@@ -30,7 +30,7 @@ int main(int argc, char * argv[])
     
     Engine e(argc, argv,600,600);
     
-    Morpion m(new FirstEmptyIA(CROIX),nullptr);
+    Morpion m(new FirstEmptyIA(CROIX),nullptr, 3, 3);
     
     MyGraphicEngine ge(m);
     MyControlEngine ce(m);
