@@ -7,7 +7,7 @@ The TicTacToe source code can be used as a start for an AI project. The students
 # compiling
 This project use the engine library define at
 	
-	-
+	- https://github.com/memo-p/libGraph
 
 once you have put your lib file in the good directory. just use:
 
